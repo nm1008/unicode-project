@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    text-align: center;
+}
+
+#container .key{
+    font-size: 150px;
+    font-weight: bolder;
+    margin-bottom: 150px;
+}
+
+#container .keyCode{
+    font-size: 48px;
+}

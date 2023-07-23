@@ -4,10 +4,14 @@ const keyCode = document.querySelector(".keyCode");
 const start = document.querySelector(".start")
 
 
-
-
 document.addEventListener('keydown', (e) => {
   start.remove()
-  key.textContent = `${e.key} `;
-  keyCode.textContent = ` Unicode ${e.keyCode}`;
+
+  if(e.key === " "){
+    key.textContent = "SPACE"; 
+    keyCode.textContent = ` Unicode ${e.keyCode}`;
+  } else {
+    key.textContent = `${e.key} `;
+    keyCode.textContent = ` Unicode ${e.keyCode}`;
+  }
 })

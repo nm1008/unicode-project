@@ -8,7 +8,7 @@ document.addEventListener('keydown', (e) => {
   start.remove()
 
   if(e.key === " "){
-    key.textContent = "SPACE"; 
+    key.textContent = "Space"; 
     keyCode.textContent = ` Unicode ${e.keyCode}`;
   } else {
     key.textContent = `${e.key} `;
